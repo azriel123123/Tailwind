@@ -578,6 +578,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .size-2\/3 {
   width: 66.666667%;
   height: 66.666667%;
