@@ -659,6 +659,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-Poppins {
   font-family: Poppins;
 }
