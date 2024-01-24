@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title> 
+</head>
+<body>
+    <h1 class="font-Poppins font-bold text-center text-6xl underline">Spanning Colums</h1>
+    <hr class="h-[4px] bg-black mt-3">
+
+    <div class="grid grid-cols-3 gap-4 p-3">
+        <div class="bg-sky-300 px-4 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-lime-300 px-4 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+        <div class="bg-rose-300 px-4 rounded-lg shadow-md">
+            <p class="text-center">3</p>
+        </div>
+        <div class="bg-yellow-300 col-span-2 py-10 px-4 rounded-lg shadow-md">
+            <p class="text-center">4 & 5</p>
+        </div>
+        <div class="bg-violet-300 py-10 px-4 rounded-lg shadow-md">
+            <p class="text-center">6</p>
+        </div>
+    </div>
+
+    <h1 class="font-Poppins font-bold text-center text-6xl underline">Spanning Rows</h1>
+    <hr class="h-[4px] bg-black mt-3">
+    
+    <div class="grid grid-cols-3 gap-4 bm-4">
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+        <div class="bg-yellow-300 row-span-2 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">3 & 6</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+    </div>
+    
+    <div class="grid grid-cols-3 gap-4 bm-4">
+        <div class="bg-yellow-300 grid px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+        <div class="bg-yellow-300 row-span-2 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">3 & 6</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+    </div>
+
+</body>
+</html>
