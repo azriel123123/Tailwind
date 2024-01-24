@@ -717,12 +717,28 @@ video {
   margin-left: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-56 {
+  margin-bottom: 14rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .size-2\/3 {
@@ -801,6 +817,10 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .overflow-y-scroll {
