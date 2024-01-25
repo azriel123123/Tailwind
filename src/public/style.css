@@ -734,6 +734,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .size-2\/3 {
   width: 66.666667%;
   height: 66.666667%;
@@ -791,6 +795,26 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .grid-cols-1 {
@@ -1205,6 +1229,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-75 {
+  transition-duration: 75ms;
+}
+
 .first-letter\:float-left::first-letter {
   float: left;
 }
@@ -1339,6 +1367,14 @@ video {
 
   .lg\:order-6 {
     order: 6;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:max-w-sm {
