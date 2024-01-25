@@ -1307,6 +1307,10 @@ video {
   .md\:max-w-md {
     max-width: 28rem;
   }
+
+  .md\:text-center {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {

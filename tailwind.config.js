@@ -17,9 +17,6 @@ module.exports = {
     fontFamily:{
       'Poppins' : ['Poppins']
     },
-    animation:{
-      'animate-melayang' : ['']
-    }
   },
   plugins: [],
 }
