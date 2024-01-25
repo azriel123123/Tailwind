@@ -17,9 +17,6 @@ module.exports = {
     fontFamily:{
       'Poppins' : ['Poppins']
     },
-    animation: {
-      animateJedagJedug:'scale:(1.1)'
-    }
   },
   plugins: [],
 }
